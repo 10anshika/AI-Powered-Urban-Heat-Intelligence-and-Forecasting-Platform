@@ -86,42 +86,43 @@ Logs a final, easy-to-understand summary report to the console.
 
 ## 🚀 Getting Started
 Follow these steps to set up the project and run your first analysis.
+
 Prerequisites
 Python 3.9+
 Git
 
 Step 1: Clone the repository:
 ```bash
-git clone https://github.com/ArhamOrioner/UHI-Analysis.git
-cd UHI-Analysis
+git clone https://github.com/10anshika/AI-Powered-Urban-Heat-Intelligence-and-Forecasting-Platform.git
+cd AI-Powered-Urban-Heat-Intelligence-and-Forecasting-Platform
 ```
+
 Step 2: Install Dependencies
 It's highly recommended to use a Python virtual environment.
 
 ```bash
-# Create a virtual environment
 python3 -m venv venv
-
-# Activate it
 source venv/bin/activate
-
-# Install required packages from the requirements file
 pip install -r requirements.txt
 ```
+
 Step 3: Run an Analysis
 Execute the analysis using app.py. The script will automatically find the geographic boundaries for the specified city.
 
 Basic Example (Las Vegas, 2023)
-
 ```bash
 python app.py --city "Las Vegas" --years 2023
-Multi-Year Example (Dubai, MODIS data)
 ```
+
+Multi-Year Example (Dubai, MODIS data)
 ```bash
 python app.py --city "Dubai" --years 2022 2023 --source MODIS
 ```
+
 Note: A full analysis for a single year can take 5–10 minutes to complete, depending on the size of the city and the number of available satellite images. The hyperparameter tuning step is the most time-intensive part.
-All results, including plots, logs, and the interactive map, will be saved in the outputs/ directory.
+
+All results, including plots, logs, and the interactive map, will be saved in the `outputs/` directory.
+
 
 
 ## 🔮 Future Enhancements
