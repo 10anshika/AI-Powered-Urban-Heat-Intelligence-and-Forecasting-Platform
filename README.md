@@ -1,7 +1,7 @@
 # 🛰️ AI-Powered Urban Heat Intelligence and Forecasting Platform
 
 ## Heat Risk Forecasting & Climate Intelligence Platform
-This upgraded version keeps all existing Urban Heat Island (UHI) analytics intact and adds:
+Urban Heat Island (UHI) analytics intact and adds:
 - XGBoost-based future heat (LST) forecasting
 - Heat Risk Score (0–100) with Low/Medium/High bands
 - Future hotspot detection (predicted High risk)
@@ -134,4 +134,4 @@ Climate Change Projections: Integrate climate models to predict future UHI scena
 Interactive Dashboard: Build a web-based dashboard (e.g., using Streamlit or Dash) for dynamic exploration of results.
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
